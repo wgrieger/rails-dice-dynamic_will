@@ -5,3 +5,4 @@ class PagesController < ApplicationController
     def display
       render ({:template => "display"})
     end
+  end
